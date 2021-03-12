@@ -1,0 +1,27 @@
+﻿body {
+}
+h1 {
+    color:#cfcf40;
+}
+.introduction  {
+            font-style: italic;
+            color: #FF0000;
+        }
+p a{
+    color:aqua;
+    text-decoration:underline;
+}
+p a:visited
+{
+    color:#b6ff00;
+    text-decoration:underline;
+}
+p a:hover
+{
+    color:#00ff90;
+    text-decoration:underline;
+}
+h1 {
+}
+h1 {
+}

@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: Chung 4 Control panel, Configuration: Debug Any CPU ------
+1>  Chung 4 Control panel -> E:\LaptrinhWeb\Chung 4 Control panel\bin\Chung 4 Control panel.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

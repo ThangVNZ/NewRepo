@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Frontend.master.cs" Inherits="Myfistwebpage.Master_PAge.Frontend" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+            <header></header>
+            <section id="MainContent">
+                <a href="/">
+                    </a>
+                <div id="menu">
+  <ul>
+    <li><a href="#">Trang chủ</a></li>
+    <li><a href="#">Diễn đàn</a></li>
+    <li><a href="#">Tin tức</a></li>
+    <li><a href="#">Hỏi đáp</a></li>
+    <li><a href="#">Liên hệ</a></li>
+  </ul>
+</div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" OnLoad="Page_Load">
+            </asp:ContentPlaceHolder>
+             <script src="../Scipt/modernizr-2.6.2.js"></script>
+             </section>
+            <aside id="Sidebar">vui long chon theme <br />
+                <asp:DropDownList ID="ThemeList" runat="server" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged" AutoPostBack="True">
+                    <asp:ListItem>Monochrome</asp:ListItem>
+                    <asp:ListItem>DarkGray</asp:ListItem>
+                </asp:DropDownList>
+                <a href="/"></a>
+            </aside>
+            <footer>Liên Hệ vào Hotline</footer>
+        </div>
+    </form>
+</body>
+</html>
